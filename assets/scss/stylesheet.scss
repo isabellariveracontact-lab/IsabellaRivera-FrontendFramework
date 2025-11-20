@@ -1,0 +1,64 @@
+
+@mixin chart($width, $maxw, $height){
+    width: $width;
+    max-width: $maxw;
+    height: $height;
+}
+
+
+.myChart{
+    @include chart(100%, 600px ,500px );
+}
+
+.color-style{
+background-color: aqua;
+border: solid 30px blue($color: #05177c);
+}
+
+$bg-dark: #363740;
+$bg-light: #F7F8FC;
+$text-light: #DDE2FF;
+$muted: #9FA2B4;
+$primary: #3751FF;
+$border-gray: #dddddd;
+$shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+body {
+  background-color: $bg-light;
+  font-family: "Inter", sans-serif;
+}
+
+#sidebar {
+    background-color: $bg-dark;
+    color:#F7F8FC
+}
+
+li > a {
+  text-decoration: none;
+
+  &:hover {
+    border-left: solid  3px $text-light;
+    color: $text-light ;
+    background-color: $muted;
+  }
+}
+
+span{
+    color: #9FA2B4;
+
+  &:hover {
+    color: $text-light ;
+  } 
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin card {
+  background: $bg-light;
+  border-radius: 10px;
+  box-shadow: $shadow;
+  }

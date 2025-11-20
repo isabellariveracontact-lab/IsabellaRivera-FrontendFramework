@@ -1,0 +1,38 @@
+.myChart {
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+}
+
+.color-style {
+  background-color: aqua;
+  border: solid 30px 124;
+}
+
+body {
+  background-color: #F7F8FC;
+  font-family: "Inter", sans-serif;
+}
+
+#sidebar {
+  background-color: #363740;
+  color: #F7F8FC;
+}
+
+li > a {
+  text-decoration: none;
+}
+li > a:hover {
+  border-left: solid 3px #DDE2FF;
+  color: #DDE2FF;
+  background-color: #9FA2B4;
+}
+
+span {
+  color: #9FA2B4;
+}
+span:hover {
+  color: #DDE2FF;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

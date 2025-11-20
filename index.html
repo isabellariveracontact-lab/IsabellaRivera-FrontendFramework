@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<head>
+    <title>Hello Amanda!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-©awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    
+    <link href="
+    /assets/css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- SIDEBAR -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block sidebar collapse ">
+                <section class="sidebar-sticky pt-md-3">
+                    <h6 class="text-light pt-md-3">Dashboard Kit</h4>
+
+                    <div class="dashboard-kit position-sticky pt-md-5">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                  <i class="fa fa-pie-chart" aria-hidden="true"></i>
+
+                                    <span class="ml-2 sidebar-item">Overview</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                   <i class="fa-solid fa-ticket"></i>
+                                    <span class="ml-2">Tickets</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                   <i class="fa-solid fa-lightbulb"></i>
+                                    <span class="ml-2">Ideas</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                  <i class="fa-solid fa-address-card"></i>
+                                    <span class="ml-2">Contacts</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    <span class="ml-2">Agents</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-book"></i>
+                                    <span class="ml-2">Articles</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="position-sticky pt-md-3 border-muted border-top">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <span class="ml-2">Settings</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                   <i class="fa-solid fa-medal"></i>
+                                    <span class="ml-2">Subscription</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+            </nav>
+
+
+
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 py-4">
+                <div class="chartjs-size-monitor">
+                    <div class="chartjs-size-monitor-expand">
+                    </div>
+                </div>
+                <div class="chartjs-size-monitor-shrink">
+                </div>
+
+                <!-- DASHBOARD HEADER -->
+                <header class="py-3 mb-3">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                        <h5 class="h5 col">Dashboard
+                                              <span class="badge badge-light">DEFAULT</span>
+                            
+                        </h5>
+                                         
+                        <h7 class="h7 border-start col col-md-auto col-lg-2 p-2">Isabella Rivera</h7>                    
+                        <div class="flex-shrink-0 picture">
+                            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </div>
+                    </div>
+                </header>
+                <!-- CHART SECTION -->
+                <section class="row">
+                <!-- CHART --> 
+                 <div class="col-md-10 col-lg-7">
+                     <div id="myChart"></div>
+                 </div>
+                <!-- INFORMATION BESIDE CHART -->
+                    <div class="col-md-3 col-lg-4 order-md-last">
+                        <ul class="list-group mb-3">
+
+                            <li class="list-group-item d-flex justify-content-center lh-sm">
+                                <div>
+                                    <h6 class="text-muted text-center">Resolved</h6>
+                                    <h2 class="my-0 text-center">449</h2>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center lh-sm">
+                                <div>
+                                    <h6 class="text-muted ">Received</h6>
+                                    <h2 class="my-0 text-center">426</h2>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center lh-sm">
+                                <div>
+                                    <h6 class="text-muted">Average first ressponse time</h6>
+                                    <h2 class="my-0 text-center">33m</h2>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center lh-sm">
+                                <div>
+                                    <h6 class="text-muted">Average response time</h6>
+                                    <h2 class="my-0 text-center">3h 8m</h2>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center lh-sm">
+                                <div>
+                                    <h6 class="text-muted">Resolution within SLA</h6>
+                                    <h2 class="my-0 text-center"> 94%</h2>
+                                </div>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </section>
+                <!-- TABLE OF INFORMATION -->
+
+                <!-- FIRST FLOATING TAG -->
+                <section class="row my-5 p-5 bg-white rounded box-shadow">
+                    <!-- Primer Card: Unresolved Tickets -->
+                    <div class="col-sm-6 mb-4">
+                        <div class="card box-shadow">
+                            <div class="card-header p-5">
+                                <h4 class="my-0 p-2 font-weight-normal">Unresolved Tickets</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    
+                                    <div class="media-body p-4 lh-125 border-bottom border-gray">
+
+                                        <div class="d-flex justify-content-between align-items-center w-100">
+                                            <strong class="text-gray-dark">Waiting on Feature Request</strong>
+                                            <a>4238</a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="media-body p-4 lh-125 border-bottom border-gray">
+                                        <div class="d-flex justify-content-between align-items-center w-100">
+                                            <strong class="text-gray-dark">Awaiting Customer Response</strong>
+                                            <a>1005</a>
+                                        </div>
+                                    </div>
+                                    <div class="media-body p-4  lh-125 border-bottom border-gray">
+                                        <div class="d-flex justify-content-between align-items-center w-100">
+                                            <strong class="text-gray-dark">Awaiting Developer Fix</strong>
+                                            <a>914</a>
+                                        </div>
+                                    </div>
+                                    <div class="media-body p-4 lh-125 border-gray">
+                                        <div class="d-flex justify-content-between align-items-center w-100">
+                                            <strong class="text-gray-dark">Awaiting Developer Fix</strong>
+                                            <a>281</a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Card: Tasks -->
+                    <div class="col-sm-6 mb-4">
+                        <div class="card box-shadow">
+                            <div class="pt-3 pt-3 pb-2 ps-5 d-flex align-items-center">
+                                <h4 class="my-0 font-weight-normal">Tasks</h4>
+                            </div>
+                            <div class="pb-3 ps-5 d-flex align-items-center">
+                                <h6 class="my-0 text-muted">Today</h6>
+                            </div>
+                            <div class="form-check">
+                                <label class="pb-3 pb-3 pt-3 ps-4 ps-4 border-top">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        Finish Ticket Update
+                                    </label>
+                                    <span class="badge badge-warning">URGENT</span>
+                                </label>
+
+                                <label class="pb-3 pt-3 ps-4 border-top border-bottom">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        Create a new ticket example
+                                    </label>
+                                    <span class="badge badge-success">NEW</span>
+                                </label>
+
+                                <label class="pb-3 pt-3 ps-4">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Update ticket report
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>    
+                                        <p class="badge badge-light">
+
+                                              <span class="badge badge-light">DEFAULT</span>
+                                        </p>                                    
+                                    </label>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+              
+            </main>
+        </div>
+    </div>
+</body> 
+
+<script>
+    google.charts.load('current',{packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+    // Set Data
+    const data = google.visualization.arrayToDataTable([
+    ['Price', 'Today'],
+    [50,7],[60,8],[70,8],[80,9],[90,9],
+    [100,9],[110,10],[120,11],
+    [130,14],[140,14],[150,15]
+    ]);
+    // Set Options
+    const options = {
+    title: "Today's trends",
+    legend: 'as of 25 May 2019, 09:41 PM'
+    };
+    // Draw
+    const chart = new google.visualization.LineChart(document.getElementById('myChart'));
+    chart.draw(data, options);
+    }
+</script>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "isabellarivera-inm320-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-lite": "lite-server",
+    "startsass": "sass --watch assets/scss:assets/css",
+    "start": "concurrently \"npm run start-lite\" \"npm run startsass\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrency": "^0.1.4",
+    "concurrently": "^9.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.94.1"
+  }
+}
